@@ -10,10 +10,22 @@ li, ul {
   opacity: 1;
 }
 
-.container * {
-  display: block;
+.container {
+  widows: 80%;
 }
 
 .container img {
   margin-bottom: 30px;
+  border: solid black 2px;
+  width: 480px;
+  height: 300px;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(auto-fill, auto);
+  grid-row-gap: .8em;
+  grid-column-gap: .5em;
+  text-align: center;
 }
