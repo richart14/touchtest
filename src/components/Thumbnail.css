@@ -1,0 +1,19 @@
+li, ul {
+  list-style: none;
+}
+
+.thumb img.still {
+  position: relative;
+}
+.thumb img.gif {
+  position: absolute;
+  opacity: 1;
+}
+
+.container * {
+  display: block;
+}
+
+.container img {
+  margin-bottom: 30px;
+}
